@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="searching-for-a-barcode-scanner-app;google-search-for-barcode-scanner-app" tests="3" failures="1" skipped="1">
+        <properties>
+            <property name="URI" value="/Users/xprn6/js/puppeteer-cucumber-js/features/google-search.feature">
+            </property>
+        </properties>
+        <testcase name="Given I am online at google.co.uk" classname="searching-for-a-barcode-scanner-app;google-search-for-barcode-scanner-app" time="3.530430285">
+        </testcase>
+        <testcase name="When I search Google for &quot;barcode scanner app&quot;" classname="searching-for-a-barcode-scanner-app;google-search-for-barcode-scanner-app" time="0.027448273">
+            <failure message="frame not found">frame not found</failure>
+        </testcase>
+        <testcase name="Then I should see &quot;Orca Scan&quot; in the results" classname="searching-for-a-barcode-scanner-app;google-search-for-barcode-scanner-app">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="searching-for-a-barcode-scanner-app;google-search-for-orca-scan" tests="3" failures="1" skipped="1">
+        <properties>
+            <property name="URI" value="/Users/xprn6/js/puppeteer-cucumber-js/features/google-search.feature">
+            </property>
+        </properties>
+        <testcase name="Given I am online at google.co.uk" classname="searching-for-a-barcode-scanner-app;google-search-for-orca-scan" time="3.676445465">
+        </testcase>
+        <testcase name="When I search Google for &quot;Orca Scan&quot;" classname="searching-for-a-barcode-scanner-app;google-search-for-orca-scan" time="0.022835033">
+            <failure message="frame not found">frame not found</failure>
+        </testcase>
+        <testcase name="Then I should see &quot;Orca Scan&quot; in the results" classname="searching-for-a-barcode-scanner-app;google-search-for-orca-scan">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="book-and-orca-scan-demo;book-an-orca-scan-demo" tests="3" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="/Users/xprn6/js/puppeteer-cucumber-js/features/orca-scan-demo.feature">
+            </property>
+        </properties>
+        <testcase name="Given I am on the Orca Scan barcode tracking website" classname="book-and-orca-scan-demo;book-an-orca-scan-demo" time="6.799431203">
+        </testcase>
+        <testcase name="When I click the Book a demo button" classname="book-and-orca-scan-demo;book-an-orca-scan-demo" time="0.178950241">
+        </testcase>
+        <testcase name="Then I should be able to book a demo" classname="book-and-orca-scan-demo;book-an-orca-scan-demo" time="0.026048168">
+        </testcase>
+    </testsuite>
+</testsuites>
